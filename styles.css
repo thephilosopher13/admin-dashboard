@@ -1,10 +1,56 @@
-.container {
+body {
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: 2.5fr 10fr;
+    grid-template-columns: 2fr 8fr;
+    margin: 0;
 }
 
-.container .sidenav {
-    height: 100%
+body .sidenav {
+    height: 100%;
+    background-color: #38bdf8;
+    padding: 20px;
+    color: white;
+    grid-column: 1 / 2;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 1.5fr 8.5fr
+}
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.searchbar {
+    display: grid;
+
+}
+.greetingandbuttons {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1.5fr 1.5fr 1.5fr; 
+}
+
+.maincontent {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 3fr 1fr;
+}
+
+.projects {
+    grid-area: 1 / 1 / 7 / 2;
+}
+
+.projects .projectcardsdivs {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1.5fr 1.5fr;
+}
+
+.announcements {
+    grid-area: 1 / 2 / 4 / 3;
+}
+
+.trending {
+    grid-area: 4 / 2 / 7 / 3;
 }
