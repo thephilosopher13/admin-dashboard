@@ -10,20 +10,37 @@
 </head>
 <body>
     <div class="sidenav">
-        <div>Dashboard</div>
-        <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
-        </ul>
-        <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
-        </ul>
+        <h1>Dashboard</h1>
+        <div>
+            <ul class="iconlist">
+                <li><svg class="sidenavsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>home</title><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg></li>
+                <li><svg class="sidenavsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>account-box-outline</title><path d="M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M16.5,16.25C16.5,14.75 13.5,14 12,14C10.5,14 7.5,14.75 7.5,16.25V17H16.5M12,12.25A2.25,2.25 0 0,0 14.25,10A2.25,2.25 0 0,0 12,7.75A2.25,2.25 0 0,0 9.75,10A2.25,2.25 0 0,0 12,12.25Z" /></svg></li>
+                <li><svg class="sidenavsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>message</title><path d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2Z" /></svg></li>
+                <li><svg class="sidenavsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>clock-time-nine</title><path d="M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12S17.5 2 12 2M12.5 13H7V11.5H11V7H12.5V13Z" /></svg></li>
+                <li><svg class="sidenavsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>file-multiple</title><path d="M15,7H20.5L15,1.5V7M8,0H16L22,6V18A2,2 0 0,1 20,20H8C6.89,20 6,19.1 6,18V2A2,2 0 0,1 8,0M4,4V22H20V24H4A2,2 0 0,1 2,22V4H4Z" /></svg></li>
+                <li><svg class="sidenavsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>account-group</title><path d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z" /></svg></li>
+            </ul>
+            <ul class="sidenavlist">
+                <li>Home</li>
+                <li>Profile</li>
+                <li>Messages</li>
+                <li>History</li>
+                <li>Tasks</li>
+                <li>Communities</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="iconlist">
+                <li><svg class="sidenavsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>cog</title><path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" /></svg></li>
+                <li><svg class="sidenavsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>help-box</title><path d="M11,18H13V16H11V18M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z" /></svg></li>
+                <li><svg class="sidenavsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>security</title><path d="M12,12H19C18.47,16.11 15.72,19.78 12,20.92V12H5V6.3L12,3.19M12,1L3,5V11C3,16.55 6.84,21.73 12,23C17.16,21.73 21,16.55 21,11V5L12,1Z" /></svg></li>
+            </ul>
+            <ul class="sidenavlist">
+                <li>Settings</li>
+                <li>Support</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
     </div>
     <div class="main">
         <div class="header">
@@ -52,7 +69,7 @@
                 <div class="projectcardsdivs">
                     <div class="projectcards">
                         <h1>Super Cool App</h1>
-                        <p></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis euismod felis. Proin congue purus et lorem consequat luctus. Vivamus porta, purus at scelerisque mattis, nulla tellus dignissim massa, eu cursus magna justo varius nulla. Donec tristique interdum erat eu mollis. Duis ullamcorper nibh at enim imperdiet, eget fermentum nisl malesuada.</p>
                         <div class="icons">
                             <div></div>
                             <div></div>
@@ -61,8 +78,8 @@
                         </div>
                     </div>
                     <div class="projectcards">
-                        <h1></h1>
-                        <p></p>
+                        <h1>Awesome App</h1>
+                        <p>Fusce scelerisque arcu eget euismod faucibus. Cras ut iaculis lorem. Quisque facilisis eget massa ut mollis. Sed dapibus risus quis lectus molestie commodo. Integer aliquam ante in enim porttitor tempus. Quisque eu feugiat neque. Pellentesque ultricies ultricies urna ac sollicitudin.</p>
                         <div class="icons">
                             <div></div>
                             <div></div>
@@ -71,8 +88,8 @@
                         </div>
                     </div>
                     <div class="projectcards">
-                        <h1></h1>
-                        <p></p>
+                        <h1>Kinda Okay Website</h1>
+                        <p>Vestibulum egestas placerat leo ac viverra. Cras ex lectus, lobortis sit amet justo ut, scelerisque feugiat mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque tempus, odio sit amet fermentum feugiat, urna leo interdum augue, ullamcorper feugiat purus tortor in augue.</p>
                         <div class="icons">
                             <div></div>
                             <div></div>
@@ -81,8 +98,8 @@
                         </div>
                     </div>
                     <div class="projectcards">
-                        <h1></h1>
-                        <p></p>
+                        <h1>Unique Item</h1>
+                        <p>Sed sodales dictum vulputate. Nunc tempor convallis nisi, sed sagittis massa suscipit at. Donec quis eros bibendum, dignissim mauris a, congue quam. Phasellus euismod nunc in risus aliquet vulputate. Mauris id quam auctor, tincidunt turpis et, mollis sapien. In aliquam pellentesque dui, id ultricies odio fermentum in. </p>
                         <div class="icons">
                             <div></div>
                             <div></div>
@@ -91,8 +108,8 @@
                         </div>
                     </div>
                     <div class="projectcards">
-                        <h1></h1>
-                        <p></p>
+                        <h1>Random Thing</h1>
+                        <p>In in ipsum quis ex commodo posuere. Ut a pulvinar odio, non luctus felis. Quisque sed mauris nec urna sodales consectetur. Donec id nisl nec purus scelerisque faucibus vel id tellus. Donec ullamcorper quam enim, vitae ultricies elit sollicitudin et. Nam rhoncus tortor turpis, a lacinia ante faucibus id.</p>
                         <div class="icons">
                             <div></div>
                             <div></div>
@@ -101,8 +118,8 @@
                         </div>
                     </div>
                     <div class="projectcards">
-                        <h1></h1>
-                        <p></p>
+                        <h1>Last Item</h1>
+                        <p>Quisque sit amet volutpat ante. Ut accumsan finibus dolor fringilla rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed dictum enim quis nisl commodo, a pharetra purus lacinia. Nulla lacinia commodo tortor, in suscipit justo condimentum sed.</p>
                         <div class="icons">
                             <div></div>
                             <div></div>

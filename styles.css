@@ -4,6 +4,8 @@ body {
     display: grid;
     grid-template-columns: 2fr 8fr;
     margin: 0;
+    font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
 }
 
 body .sidenav {
@@ -12,6 +14,57 @@ body .sidenav {
     padding: 20px;
     color: white;
     grid-column: 1 / 2;
+}
+
+body .sidenav h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sidenavsvg {
+    fill: white;
+}
+
+.sidenav div {
+    display: grid;
+    grid-template-columns: 36px auto;
+}
+
+.sidenav div .iconlist {
+    grid-column: 1 / 2;
+    display: grid;
+    padding: 0;
+}
+
+.sidenav div .sidenavlist {
+    grid-column: 2 / 3;
+    display: grid;
+    padding: 0;
+}
+
+.sidenav > div:nth-child(2) .iconlist {
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.sidenav > div:nth-child(2) .sidenavlist {
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.sidenav > div:nth-child(3) .iconlist {
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.sidenav > div:nth-child(3) .sidenavlist {
+    grid-template-rows: repeat(3, 1fr);
+}
+
+
+body .sidenav ul li {
+    list-style: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-weight: 600;
+    align-self: center;
 }
 
 .main {
@@ -43,8 +96,14 @@ body .sidenav {
 }
 
 .projects .projectcardsdivs {
+    padding: 36px;
     display: grid;
-    grid-template: 1fr 1fr 1fr / 1.5fr 1.5fr;
+    gap: 36px;
+    grid-template: 2fr 2fr 2fr / 3fr 3fr;
+}
+
+.projectcards {
+    height: minmax(200px, 25%)
 }
 
 .announcements {
