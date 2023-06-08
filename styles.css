@@ -25,7 +25,16 @@ body .sidenav h1 {
     fill: white;
 }
 
-.sidenav div {
+.dashboardsvg {
+    fill: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.sidenav > div > div > h1 {
+    padding-left: 16px;
+}
+.sidenav > div {
     display: grid;
     grid-template-columns: 36px auto;
 }
